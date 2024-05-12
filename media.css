@@ -1,0 +1,19 @@
+*{margin: 0;padding: 0;
+box-sizing: border-box;}
+
+div{width: 500px;
+    height: 500px;background:red;}
+
+@media screen and (max-width : 600px){div{background: blue;height: 250px;width: 250px;}}
+
+
+.div{width: 300px;height: 200px;background: rosybrown;}
+
+@media screen and (max-width: 400px){.div{background: green;width: 100px;height: 100px;}
+    
+}
+
+.div1{width: 70vw;height: 75vh;background: #cea4f54f;}
+ @media screen and (min-width: 700px){.div1{background: #410d25;width: 25vw;height: 25vh;}
+    
+ }   
